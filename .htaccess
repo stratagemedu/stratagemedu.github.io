@@ -1,0 +1,14 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+# 1 Week for most static assets
+<filesMatch ".(jpg|jpeg|png|gif|ico|svg)$">
+Header set Cache-Control "max-age=604800, public"
+</filesMatch>
+
+# One month for css and js assets
+<filesMatch ".(css|js)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
