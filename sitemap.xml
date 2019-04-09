@@ -1,11 +1,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://stratagemedu.com/index.html</loc>
+		<loc>https://stratagemedu.com/index.html</loc>
 	</url>
 	<url>
-		<loc>http://stratagemedu.com/about.html</loc>
+		<loc>https://stratagemedu.com/about.html</loc>
 	</url>
 	<url>
-		<loc>http://stratagemedu.com/enroll.html</loc>
+		<loc>https://stratagemedu.com/contact-us.html</loc>
+	</url>
+	<url>
+		<loc>https://stratagemedu.com/academics.html</loc>
+	</url>
+	<url>
+		<loc>https://stratagemedu.com/courses.html</loc>
+	</url>
+	<url>
+		<loc>https://stratagemedu.com/programs.html</loc>
 	</url>
 </urlset>
